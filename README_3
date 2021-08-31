@@ -1,0 +1,42 @@
+azcopy \
+    --source /mnt/myfiles/abc.txt \
+    --destination https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor \
+    --dest-key mNzWQjYvI5tS0bUtM6nLIKxy7xgLZPPSliO/ME6ghrs++ImoAcV7Bzq9DPyl+0Nk7CQVA8sMoK0h6IDjWvfDdg==
+
+azcopy \
+--source /home/norman/data/coffee/Analysis_2020_pilot/dna-proto-workflow/output/abra/ \
+--destination https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor \
+--dest-key mNzWQjYvI5tS0bUtM6nLIKxy7xgLZPPSliO/ME6ghrs++ImoAcV7Bzq9DPyl+0Nk7CQVA8sMoK0h6IDjWvfDdg== \
+--recursive \
+--include "*.bam.bai"
+
+
+
+files
+
+/home/norman/data/coffee/Analysis_2020_pilot/dna-proto-workflow/output/abra/bwa~GCF_003713225.1_Cara_1.0~all_samples.bam
+#/home/norman/data/coffee/Analysis_2020_pilot/dna-proto-workflow/output/abra/bwa~GCF_003713225.1_Cara_1.0~all_samples.bam.bai
+
+/home/norman/data/coffee/Analysis_2020_pilot/dna-proto-workflow/output/variants/final/freebayes~bwa~GCF_003713225.1_Cara_1.0~all_samples~filtered-strict.vcf.gz
+/home/norman/data/coffee/Analysis_2020_pilot/dna-proto-workflow/output/variants/final/freebayes~bwa~GCF_003713225.1_Cara_1.0~all_samples~filtered-strict.vcf.gz.csi
+
+/home/norman/data/coffee/Analysis_2020_pilot/dna-proto-workflow/genomes_and_annotations/GCF_003713225.1_Cara_1.0/GCF_003713225.1_Cara_1.0_genomic.fna
+/home/norman/data/coffee/Analysis_2020_pilot/dna-proto-workflow/genomes_and_annotations/GCF_003713225.1_Cara_1.0/GCF_003713225.1_Cara_1.0_genomic.fna.fai
+
+/home/norman/data/coffee/Design_Coffee_exome_capture_291019/from_ArborBioSci/Arbor_CoffexomeV1-PredictedPotentialCovg-Exons.table.f1-f4f10f6.bed
+
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/Arbor_CoffexomeV1-PredictedPotentialCovg-Exons.table.f1-6.bed
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/Arbor_CoffexomeV1-PredictedPotentialCovg-Exons.table.f1-f4f10f6.bed
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/bwa~GCF_003713225.1_Cara_1.0~all_samples.bam
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/bwa~GCF_003713225.1_Cara_1.0~all_samples.bam.bai
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/freebayes~bwa~GCF_003713225.1_Cara_1.0~all_samples~filtered-default.vcf.gz
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/freebayes~bwa~GCF_003713225.1_Cara_1.0~all_samples~filtered-default.vcf.gz.tbi
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/freebayes~bwa~GCF_003713225.1_Cara_1.0~all_samples~filtered-strict.vcf.gz
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/freebayes~bwa~GCF_003713225.1_Cara_1.0~all_samples~filtered-strict.vcf.gz.tbi
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/GCF_003713225.1_Cara_1.0_genomic.fna
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/GCF_003713225.1_Cara_1.0_genomic.fna.fai
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/GCF_003713225.1_Cara_1.0_genomic_igvDisplay.sorted.gff
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/IGV_Display_arbor/GCF_003713225.1_Cara_1.0_genomic_igvDisplay.sorted.gff.idx
+
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/Legacy-Tomato/freebayes~bwa~SL4.0-ITAG4.0~all_samples~filtered-default.vcf.gz
+https://bss1innov1nafa1poc1.blob.core.windows.net/sample-container/Display/Legacy-Tomato/freebayes~bwa~SL4.0-ITAG4.0~all_samples~filtered-strict.vcf.gz

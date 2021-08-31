@@ -1,0 +1,5 @@
+bedtools multicov -bams dna-proto-workflow/output/abra/bwa~Cara_1.0~all_samples.bam -bed ../Design_Coffee_exome_capture_291019/from_ArborBioSci/Arbor_CoffexomeV1-PredictedPotentialCovg-Exons.table.edited.sorted.bed
+
+snpEff build -gtf22 -v GCF_003713225.1_Cara_1.0_snpeff
+snpEff ann -v -fi metadata/contigs_of_interest.bed GCF_003713225.1_Cara_1.0_snpeff output/variants/final/freebayes~bwa~GCF_003713225.1_Cara_1.0~all_samples~filtered-strict.vcf.gz
+
